@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css\style.css">
+        <link rel="stylesheet" href="css\foundation.min.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <title>Site</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 3000,
+                draggable: true,
+                dots: true,
+                arrows: false
+            });
+        });
+        </script>
+        <header class="small-12 12 column">
+            <div class="container">
+                <div class="logo">
+                    <h1>Logo</h1>
+                </div>
+                <nav>
+                    <div class="menu">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="menu-active">
+                        <a href="#">Contact us</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="newsletter">
+            <div class="container">
+                <h1>Contact us</h1>
+                <form>
+                    <div id="contact" class="small-12 large-12 column">
+                        <div class="small-12 large-4 column">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="small-12 large-4 column">
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <div class="small-12 large-4 column">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="small-12 large-8 column">
+                            <textarea placeholder="Message" rows="8" cols="78"></textarea>
+                        </div>
+                        <div class="small-12 large-12 column">
+                            <button type="submit" class="btn">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="small-12 12 column">
+            <p>Office hours: 9AM - 12AM and 2PM - 6PM.</p>
+            <p>Send us an <a href="mailto:email@email.com">e-mail</a></p>
+            <p>or <a href="tel:0000-0000">call us now.</a></p>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact_page.html">Contact us</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
