@@ -2,7 +2,6 @@ body {
     font: 16px/1.5 Arial, Helvetica, Sans-Serif;
     padding: 0;
     margin: 0;
-    background-color: black;
     box-sizing: border-box;
 }
 /* header*/
@@ -44,4 +43,18 @@ nav {
     width: 80%;
     margin: auto;
     overflow: hidden;
+}
+footer {
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #3a54bf;
+    color: #ffffff;
+}
+footer p {
+    display: inline-block;
+}
+footer a {
+    text-transform: lowercase;
+    text-decoration: underline;
 }
