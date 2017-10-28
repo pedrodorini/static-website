@@ -8,11 +8,11 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #fff !important;
+    color: #ccc !important;
 }
 header {
     background: #202224;
-    color: #ffffff;
+    color: #ccc;
 }
 header ul {
     margin:  0;
@@ -24,12 +24,12 @@ header li {
     padding: 0 20px 0 20px;
 }
 a {
-    color: #ffffff;
+    color: #ccc;
     text-decoration: none;
     text-transform: uppercase;
 }
 a:hover{
-    color: #cccccc;
+    color: #fff;
 }
 nav {
     float: left;
@@ -42,6 +42,7 @@ nav {
 }
 .logo h1 {
     margin: 10px 10px;
+    color: #fff;
 }
 .container {
     width: 80%;
@@ -50,15 +51,39 @@ nav {
 }
 section {
     background-color: #343639 !important;
+    padding: 5px;
 }
 #side-image {
     height: 100% !important;
+}
+.newsletter {
+    border: 1px solid #202224;
+    padding: 15px;
+    color: #ccc;
+    background: #343639;
+}
+input {
+    padding: 4px;
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+}
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    height: 38px;
+    background: #1a1c1d;
+    color: #ccc;
+}
+.btn:hover {
+    background: #202224;
 }
 footer {
     min-height: 5%;
     text-align: center;
     background-color: #202224;
-    color: #ffffff;
+    color: #ccc;
     bottom: 0;
     left: 0;
     position: relative;
