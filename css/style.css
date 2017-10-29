@@ -2,6 +2,10 @@
     body {
         font: 16px/1.5 Arial, Helvetica, Sans-Serif !important;
     }
+    header h1 {
+        margin: 10px 10px !important;
+        padding: 0 10px !important;
+    }
     .newsletter input {
         width: 25% !important;
     }
@@ -16,21 +20,29 @@ html, body {
     height: 100%
 }
 body {
-    font: 20px/1.0 Arial, Helvetica, Sans-Serif;
+    font: 16px/1.0 Arial, Helvetica, Sans-Serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: #ccc !important;
 }
 header {
+    display: inline;
     background: #202224;
     color: #ccc;
     height: auto;
+    margin-bottom: 10px;
 }
 header a {
     color: #ccc;
     text-decoration: none;
     text-transform: uppercase;
+}
+header h1 {
+    padding: 10px;
+}
+header .container {
+    display: inline;
 }
 nav {
     float: left;
@@ -58,10 +70,10 @@ a:hover{
 }
 .logo {
     float: left;
-    border-right: 2px solid #343639;
+    margin: 0;
 }
 .logo h1 {
-    margin: 10px 10px;
+    margin: 0;
     color: #fff;
 }
 .container {
