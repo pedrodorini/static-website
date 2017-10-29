@@ -119,6 +119,18 @@ a:hover{
     width: 100%;
     height: auto;
 }
+.address {
+    height: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    border-top: 1px solid #202224;
+}
+.address h1 {
+    margin: 0;
+}
+.address div {
+    margin-bottom: 10px;
+}
 footer {
     padding-top: 15px;
     text-align: center;
@@ -156,13 +168,19 @@ footer li {
         width: 10%;
     }
     .contact input, textarea {
-        width: 30%;
+        width: 80%;
     }
     .contact input {
         height: 30px;
     }
     .contact .btn {
         width: 30%;
+    }
+    .address {
+        border: 0;
+    }
+    iframe {
+        height: 400px;
     }
     footer p {
         display: inline;
