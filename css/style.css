@@ -27,7 +27,6 @@ body {
     color: #ccc !important;
 }
 header {
-    display: inline;
     background: #202224;
     color: #ccc;
     height: auto;
@@ -37,9 +36,6 @@ header a {
     color: #ccc;
     text-decoration: none;
     text-transform: uppercase;
-}
-header h1 {
-    padding: 10px;
 }
 header .container {
     display: inline;
@@ -52,11 +48,12 @@ nav div {
     display: inline-block;
 }
 .menu {
-    padding: 25px 10px;
+    padding: 15px 5px;
     height: auto;
     text-align: center;
 }
 .menu:hover {
+    padding: 25px 5px;
     background: #343639;
 }
 .menu-active {
@@ -73,7 +70,7 @@ a:hover{
     margin: 0;
 }
 .logo h1 {
-    margin: 0;
+    margin: 10px 0;
     color: #fff;
 }
 .container {
@@ -116,7 +113,7 @@ section div {
     background: #202224;
 }
 .contact  {
-    height: 90%;
+    height: auto;
     text-align: center;
     min-height: auto;
 }
