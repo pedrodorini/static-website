@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1">
         <link rel="stylesheet" href="css\style.css">
         <link rel="stylesheet" href="css\foundation.min.css">
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -9,66 +10,70 @@
         <title>Site</title>
     </head>
     <body>
-        <header class="small-12 12 column">
+        <header class="small-12 column">
             <div class="container">
                 <div class="logo">
                     <h1>Logo</h1>
                 </div>
                 <nav>
-                    <div class="menu-active">
-                        <a href="index.html">Home</a>
-                    </div>
-                    <div class="menu">
-                        <a href="contact_page.html">Contact us</a>
-                    </div>
+                    <a href="index.html">
+                        <div class="menu-active">Home</div>
+                    </a>
+                    <a href="contact_page.html">
+                        <div class="menu">Contact us</div>
+                    </a>
                 </nav>
             </div>
         </header>
         <section>
             <div class="container">
-                <div class="carousel ">
+                <div class="carousel">
                     <div><img src="images/image_1.png"></div>
                     <div><img src="images/image_2.png"></div>
                     <div><img src="images/image_3.png"></div>
                 </div>
-                <div class="small-12 large-12 column">
-                    <div class="small-6 large-6 column">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Praesent ut leo non mi tempus luctus. Nulla vel enim tempor,
-                            convallis mauris vel, fermentum ipsum. Nam ornare, tortor sed
-                            viverra pulvinar, eros odio lobortis lacus, et malesuada sapien
-                            urna vel lacus. Etiam eleifend lorem eu ligula molestie
-                            scelerisque. Integer sed nunc pharetra, euismod purus vitae,
-                            accumsan nisi. Curabitur venenatis, justo et pretium suscipit,
-                            lacus diam convallis nisl, in laoreet dui augue at dolor.
-                            Nunc posuere neque sit amet arcu pellentesque porta. Sed aliquet
-                            enim consequat risus mollis, a tincidunt quam viverra.
-                            Integer et pretium ligula, vitae varius turpis. Nulla molestie
-                            turpis id lacus cursus, at bibendum magna ultricies. Ut gravida
-                            vehicula dolor. Sed quis blandit orci. Vivamus a sapien
-                            tristique, maximus lacus at, gravida urna.
-                        </p>
-                    </div>
-                    <div class="small-6 large-6 column">
-                        <img id="side-image" src="images/image_1.png">
-                    </div>
+            </div>
+            <div class="text-container">
+                <div class="small-12 large-6 column">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Praesent ut leo non mi tempus luctus. Nulla vel enim tempor,
+                        convallis mauris vel, fermentum ipsum. Nam ornare, tortor sed
+                        viverra pulvinar, eros odio lobortis lacus, et malesuada sapien
+                        urna vel lacus. Etiam eleifend lorem eu ligula molestie
+                        scelerisque. Integer sed nunc pharetra, euismod purus vitae,
+                        accumsan nisi. Curabitur venenatis, justo et pretium suscipit,
+                        lacus diam convallis nisl, in laoreet dui augue at dolor.
+                        Nunc posuere neque sit amet arcu pellentesque porta. Sed aliquet
+                        enim consequat risus mollis, a tincidunt quam viverra.
+                        Integer et pretium ligula, vitae varius turpis. Nulla molestie
+                        turpis id lacus cursus, at bibendum magna ultricies. Ut gravida
+                        vehicula dolor. Sed quis blandit orci. Vivamus a sapien
+                        tristique, maximus lacus at, gravida urna.
+                    </p>
+                </div>
+                <div class="small-12 large-6 column">
+                    <img src="images/image_1.png">
                 </div>
             </div>
         </section>
         <section class="newsletter">
-            <div class="container">
-                <h1>Stay tuned for our news!</h1>
+            <div class="text-container">
+                <h3>Stay tuned for our news!</h3>
                 <form>
-                    <input type="email" placeholder="E-mail">
-                    <button type="submit" class="btn">Get our news!</button>
+                    <div class="small-12 column">
+                        <input type="email" placeholder="E-mail">
+                        <button type="submit" class="btn">Submit!</button>
+                    </div>
                 </form>
             </div>
         </section>
-        <footer class="small-12 12 column">
-            <p>Office hours: 9AM - 12AM and 2PM - 6PM.</p>
-            <p>Send us an <a href="mailto:email@email.com">e-mail</a></p>
-            <p>or <a href="tel:0000-0000">call us now.</a></p>
+        <footer class="small-12 column">
+            <p>Office hours: 9AM - 12AM</p>
+            <p>and</p>
+            <p>2PM - 6PM.</p>
+            <p>Send us an <a href="mailto:email@email.com">e-mail</a>
+            or <a href="tel:0000-0000">call us now.</a></p>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact_page.html">Contact us</a></li>

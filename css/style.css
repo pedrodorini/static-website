@@ -1,50 +1,27 @@
-@media only screen and (orientation: landscape) {
-    body {
-        font: 16px/1.5 Arial, Helvetica, Sans-Serif !important;
-    }
-    section {
-        background-color: #343639 !important;
-        padding: 5px;
-    }
-    form input {
-        width: 100%;
-        height: 30px !important;
-        margin-bottom: 10px;
-    }
+html, body {
+    height: 100%
 }
 body {
-    font: 26px/1.0 Arial, Helvetica, Sans-Serif;
+    font: 16px/1.0 Arial, Helvetica, Sans-Serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: #ccc !important;
+    background-color: #343639 !important;
 }
 header {
     background: #202224;
     color: #ccc;
-    height: 20%;
-}
-.menu {
-    padding: 25px 10px;
-    height: 20%;
-    text-align: center;
-}
-.menu:hover {
-    background: #343639;
-}
-.menu-active {
-    padding: 25px 10px;
-    height: 27%;
-    text-align: center;
-    background: #343639;
+    height: auto;
+    margin-bottom: 10px;
 }
 header a {
     color: #ccc;
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover{
-    color: #fff;
+header .container {
+    display: inline;
 }
 nav {
     float: left;
@@ -53,42 +30,69 @@ nav {
 nav div {
     display: inline-block;
 }
+.menu {
+    padding: 15px 5px;
+    height: auto;
+    text-align: center;
+}
+.menu:hover {
+    padding: 25px 5px;
+    background: #343639;
+}
+.menu-active {
+    padding: 25px 10px;
+    height: auto;
+    text-align: center;
+    background: #343639;
+}
+a:hover{
+    color: #fff;
+}
 .logo {
     float: left;
-    border-right: 2px solid #343639;
+    margin: 0;
 }
 .logo h1 {
-    margin: 10px 10px;
+    margin: 10px 0;
     color: #fff;
+}
+.text-container {
+    margin: 0;
+    overflow: hidden;
+}
+.text-container p {
+    margin:0 15px 0 15px;
 }
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
-section {
-    background-color: #343639 !important;
-    padding: 5px;
-}
-#side-image {
-    height: 100% !important;
-}
 .newsletter {
+    height: auto;
     border: 1px solid #202224;
-    padding: 15px;
-    color: #ccc;
-    background: #343639;
+    text-align: center;
+    font-size: 16px;
 }
-input {
-    padding: 4px;
+.newsletter input {
+    padding: 5px;
     height: 30px;
-    width: 250px;
+    width: 70%;
     border-radius: 5px;
+    margin-bottom: 10px;
+}
+.newsletter form div {
+    display: inline;
+}
+.newsletter .btn {
+    width: 25%;
+}
+.text-container div {
+    margin-bottom: 15px;
 }
 .btn {
-    padding-left: 20px;
-    padding-right: 20px;
     border: 0;
+    padding: 0 10px 0 10px;
     height: 38px;
     background: #1a1c1d;
     color: #ccc;
@@ -96,16 +100,37 @@ input {
 .btn:hover {
     background: #202224;
 }
-#contact {
-    height: -webkit-fill-available
+.contact {
+    text-align: center;
+    min-height: auto;
 }
-form input {
+.contact div {
+    margin-bottom: 10px;
+}
+.contact .btn {
     width: 100%;
-    height: 50px;
+}
+.contact h1 {
+    margin: 0;
+}
+.contact input, textarea {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+.address {
+    text-align: center;
+    margin-bottom: 15px;
+    border-top: 1px solid #202224;
+}
+.address h1 {
+    margin: 0;
+}
+.address div {
     margin-bottom: 10px;
 }
 footer {
-    min-height: 5%;
+    padding-top: 15px;
     text-align: center;
     background-color: #202224;
     color: #ccc;
@@ -114,13 +139,48 @@ footer {
     position: relative;
 }
 footer p {
-    display: inline-block;
+    display: block;
+    margin: 0;
 }
 footer a {
     color: #ccc;
     text-decoration: underline;
 }
+footer ul {
+    margin-top: 10px;
+    padding: 0;
+}
 footer li {
     display: block;
     padding: 0 20px 0 20px;
+}
+@media (min-width: 640px) {
+    header h1 {
+        margin: 10px 10px;
+        padding: 0 10px;
+    }
+    .newsletter input {
+        width: 25%;
+    }
+    .newsletter .btn {
+        width: 10%;
+    }
+    .contact input, textarea {
+        width: 80%;
+    }
+    .contact input {
+        height: 30px;
+    }
+    .contact .btn {
+        width: 30%;
+    }
+    .address {
+        border: 0;
+    }
+    iframe {
+        height: 400px;
+    }
+    footer p {
+        display: inline;
+    }
 }
